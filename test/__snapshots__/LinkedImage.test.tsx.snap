@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinkedImage renders correctly 1`] = `
+<a
+  className="css-class-name"
+  href="url-link"
+  target="_blank"
+>
+  <img
+    alt="alt-text"
+    src="image-src"
+  />
+</a>
+`;
+
+exports[`LinkedImage renders correctly 2`] = `
+<a
+  className="css-class-name"
+  href="url-link"
+  target="new_window"
+>
+  <img
+    alt="alt-text"
+    src="image-src"
+  />
+</a>
+`;
