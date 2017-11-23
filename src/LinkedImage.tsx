@@ -1,13 +1,21 @@
 import * as React from 'react';
 
+export interface Props {
+    className?: string;
+    alt: string;
+    href: string;
+    src: string;
+    target?: string;
+}
+
 /**
  * Renders an image wrapped in an anchor.
  */
-export default class LinkedImage extends React.Component {
+export default class LinkedImage extends React.Component<Props, any> {
     public state: any;
-    public props: any;
+    public props: Props;
 
-    constructor(props: any) {
+    constructor(props: Props) {
         super(props);
         this.props = props;
         console.info('LinkedImage component', props);

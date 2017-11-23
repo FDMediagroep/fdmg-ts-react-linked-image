@@ -1,6 +1,6 @@
 {
   "name": "fdmg-ts-react-linked-image",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ReactJS LinkedImage component",
   "main": "dist/LinkedImage.js",
   "types": "dist/LinkedImage.d.ts",
