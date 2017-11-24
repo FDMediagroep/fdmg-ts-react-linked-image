@@ -33,7 +33,7 @@ var LinkedImage = /** @class */ (function (_super) {
         console.info('LinkedImage next props', nextProps);
     };
     LinkedImage.prototype.render = function () {
-        return (React.createElement("a", { href: this.props.href, target: this.props.target ? this.props.target : '_blank', className: this.props.className },
+        return (React.createElement("a", { href: this.props.href, target: this.props.target ? this.props.target : '_blank', className: this.props.className, "aria-label": this.props.ariaLabel ? this.props.ariaLabel : this.props.alt },
             React.createElement(fdmg_ts_react_image_button_1.default, { src: this.props.src, alt: this.props.alt })));
     };
     return LinkedImage;

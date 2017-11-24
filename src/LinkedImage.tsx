@@ -2,8 +2,9 @@ import * as React from 'react';
 import ImageButton from 'fdmg-ts-react-image-button';
 
 export interface Props {
-    className?: string;
     alt: string;
+    ariaLabel?: string;
+    className?: string;
     href: string;
     src: string;
     target?: string;
@@ -37,8 +38,9 @@ export default class LinkedImage extends React.Component<Props, any> {
     render() {
         return (
             <a href={this.props.href}
-               target={this.props.target?this.props.target:'_blank'}
-               className={this.props.className}>
+                target={this.props.target?this.props.target:'_blank'}
+                className={this.props.className}
+                aria-label={this.props.ariaLabel?this.props.ariaLabel:this.props.alt}>
                 <ImageButton src={this.props.src} alt={this.props.alt}/>
             </a>
         );

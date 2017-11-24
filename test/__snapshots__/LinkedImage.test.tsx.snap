@@ -10,6 +10,7 @@ exports[`LinkedImage renders correctly 1`] = `
     alt="alt-text"
     className={undefined}
     onClick={undefined}
+    role={undefined}
     src="image-src"
   />
 </a>
@@ -25,6 +26,7 @@ exports[`LinkedImage renders correctly 2`] = `
     alt="alt-text"
     className={undefined}
     onClick={undefined}
+    role={undefined}
     src="image-src"
   />
 </a>

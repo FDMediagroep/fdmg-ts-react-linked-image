@@ -1,8 +1,9 @@
 /// <reference types="react" />
 import * as React from 'react';
 export interface Props {
-    className?: string;
     alt: string;
+    ariaLabel?: string;
+    className?: string;
     href: string;
     src: string;
     target?: string;

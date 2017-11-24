@@ -36,6 +36,7 @@ export default class foo {
                 src={'image.png'}
                 href={'https://fd.nl'}
                 alt="FD.nl logo"
+                ariaLabel="Shows this text as aria-label or uses alt text when this props is not set"
             />
         );
     }
@@ -44,7 +45,7 @@ export default class foo {
 
 ### Resulting HTML
 ```
-<a href="https://fd.nl" target="newWindow" class="css-class-name">
+<a href="https://fd.nl" target="newWindow" class="css-class-name" aria-label="Shows this text as aria-label or uses alt text when this props is not set">
     <img src="image.png" alt="FD.nl logo"/>
 </a>
 
