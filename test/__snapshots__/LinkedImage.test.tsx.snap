@@ -2,6 +2,7 @@
 
 exports[`LinkedImage renders correctly 1`] = `
 <a
+  aria-label="alt-text"
   className="css-class-name"
   href="url-link"
   target="_blank"
@@ -18,6 +19,7 @@ exports[`LinkedImage renders correctly 1`] = `
 
 exports[`LinkedImage renders correctly 2`] = `
 <a
+  aria-label="alt-text"
   className="css-class-name"
   href="url-link"
   target="new_window"
