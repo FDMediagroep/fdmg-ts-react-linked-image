@@ -8,6 +8,8 @@ exports[`LinkedImage renders correctly 1`] = `
 >
   <img
     alt="alt-text"
+    className={undefined}
+    onClick={undefined}
     src="image-src"
   />
 </a>
@@ -21,6 +23,8 @@ exports[`LinkedImage renders correctly 2`] = `
 >
   <img
     alt="alt-text"
+    className={undefined}
+    onClick={undefined}
     src="image-src"
   />
 </a>
