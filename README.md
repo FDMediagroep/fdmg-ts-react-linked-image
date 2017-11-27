@@ -27,6 +27,10 @@ export default class foo {
         super(props);
         this.props = props;
     }
+    
+    clickHandler(event) {
+        console.info('Clicked');
+    }
 
     render() {
         return (
@@ -35,6 +39,7 @@ export default class foo {
                 target="newWindow"
                 src={'image.png'}
                 href={'https://fd.nl'}
+                onClick={this.clickHandler.bind(this)}
                 alt="FD.nl logo"
                 ariaLabel="Shows this text as aria-label or uses alt text when this props is not set"
             />

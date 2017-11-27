@@ -11,6 +11,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
+var fdmg_ts_react_anchor_1 = require("fdmg-ts-react-anchor");
 var fdmg_ts_react_image_1 = require("fdmg-ts-react-image");
 /**
  * Renders an image wrapped in an anchor.
@@ -24,7 +25,7 @@ var LinkedImage = /** @class */ (function (_super) {
         return _this;
     }
     LinkedImage.prototype.render = function () {
-        return (React.createElement("a", { href: this.props.href, target: this.props.target ? this.props.target : '_blank', className: this.props.className, "aria-label": this.props.ariaLabel ? this.props.ariaLabel : this.props.alt },
+        return (React.createElement(fdmg_ts_react_anchor_1.default, { href: this.props.href, target: this.props.target, className: this.props.className, "aria-label": this.props.ariaLabel ? this.props.ariaLabel : this.props.alt, onClick: this.props.onClick },
             React.createElement(fdmg_ts_react_image_1.default, { src: this.props.src, alt: this.props.alt })));
     };
     return LinkedImage;

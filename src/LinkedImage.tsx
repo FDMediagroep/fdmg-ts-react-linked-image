@@ -1,11 +1,14 @@
 import * as React from 'react';
+import A from 'fdmg-ts-react-anchor';
 import Image from 'fdmg-ts-react-image';
+import {MouseEvent} from 'react';
 
 export interface Props {
     alt: string;
     ariaLabel?: string;
     className?: string;
     href: string;
+    onClick?: (event: MouseEvent<HTMLAnchorElement>) => void;
     src: string;
     target?: string;
 }
@@ -25,12 +28,13 @@ export default class LinkedImage extends React.Component<Props, any> {
 
     render() {
         return (
-            <a href={this.props.href}
-                target={this.props.target?this.props.target:'_blank'}
+            <A href={this.props.href}
+                target={this.props.target}
                 className={this.props.className}
-                aria-label={this.props.ariaLabel?this.props.ariaLabel:this.props.alt}>
+                aria-label={this.props.ariaLabel?this.props.ariaLabel:this.props.alt}
+                onClick={this.props.onClick}>
                 <Image src={this.props.src} alt={this.props.alt}/>
-            </a>
+            </A>
         );
     }
 }

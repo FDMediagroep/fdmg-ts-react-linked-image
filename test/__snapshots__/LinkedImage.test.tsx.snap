@@ -2,10 +2,13 @@
 
 exports[`LinkedImage renders correctly 1`] = `
 <a
-  aria-label="alt-text"
+  aria-label={undefined}
   className="css-class-name"
   href="url-link"
-  target="_blank"
+  onClick={undefined}
+  tabIndex={0}
+  target={undefined}
+  title={undefined}
 >
   <img
     alt="alt-text"
@@ -17,10 +20,13 @@ exports[`LinkedImage renders correctly 1`] = `
 
 exports[`LinkedImage renders correctly 2`] = `
 <a
-  aria-label="alt-text"
+  aria-label={undefined}
   className="css-class-name"
   href="url-link"
+  onClick={undefined}
+  tabIndex={0}
   target="new_window"
+  title={undefined}
 >
   <img
     alt="alt-text"
@@ -32,10 +38,13 @@ exports[`LinkedImage renders correctly 2`] = `
 
 exports[`LinkedImage renders correctly 3`] = `
 <a
-  aria-label="aria-label"
+  aria-label={undefined}
   className="css-class-name"
   href="url-link"
+  onClick={undefined}
+  tabIndex={0}
   target="new_window"
+  title={undefined}
 >
   <img
     alt="alt-text"
