@@ -16,4 +16,10 @@ test('LinkedImage renders correctly', () => {
     );
     tree = component.toJSON();
     expect(tree).toMatchSnapshot();
+
+    component = renderer.create(
+        <LinkedImage href={'url-link'} target={'new_window'} ariaLabel={'aria-label'} alt={'alt-text'} className={'css-class-name'} src={'image-src'}/>
+    );
+    tree = component.toJSON();
+    expect(tree).toMatchSnapshot();
 });

@@ -29,3 +29,18 @@ exports[`LinkedImage renders correctly 2`] = `
   />
 </a>
 `;
+
+exports[`LinkedImage renders correctly 3`] = `
+<a
+  aria-label="aria-label"
+  className="css-class-name"
+  href="url-link"
+  target="new_window"
+>
+  <img
+    alt="alt-text"
+    className={undefined}
+    src="image-src"
+  />
+</a>
+`;
