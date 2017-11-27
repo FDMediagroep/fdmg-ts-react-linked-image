@@ -23,18 +23,6 @@ export default class LinkedImage extends React.Component<Props, any> {
         console.info('LinkedImage composition', props);
     }
 
-    componentDidMount() {
-        console.info('LinkedImage mounted');
-    }
-        
-    componentWillUnmount() {
-        console.info('LinkedImage will unmount');
-    }
-
-    componentWillReceiveProps(nextProps) {
-        console.info('LinkedImage next props', nextProps);
-    }
-
     render() {
         return (
             <a href={this.props.href}

@@ -15,8 +15,5 @@ export default class LinkedImage extends React.Component<Props, any> {
     state: any;
     props: Props;
     constructor(props: Props);
-    componentDidMount(): void;
-    componentWillUnmount(): void;
-    componentWillReceiveProps(nextProps: any): void;
     render(): JSX.Element;
 }
