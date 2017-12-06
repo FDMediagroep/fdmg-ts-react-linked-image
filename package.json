@@ -1,11 +1,11 @@
 {
   "name": "fdmg-ts-react-linked-image",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "ReactJS LinkedImage component",
   "main": "dist/LinkedImage.js",
   "types": "dist/LinkedImage.d.ts",
   "scripts": {
-    "release": "tsc -d && npm install",
+    "release": "npm install && tsc -d",
     "test": "jest",
     "updateSnapshot": "jest --updateSnapshot",
     "u": "npm test -- -u"
@@ -24,6 +24,7 @@
     "enzyme-adapter-react-16": "^1.1.0",
     "enzyme-to-json": "^3.2.2",
     "jest": "^21.2.1",
+    "raf": "^3.4.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-test-renderer": "^16.1.1",
@@ -35,6 +36,9 @@
       "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "setupFiles": [
+      "raf/polyfill"
+    ],
     "moduleFileExtensions": [
       "ts",
       "tsx",
@@ -53,7 +57,7 @@
     "mapCoverage": true
   },
   "dependencies": {
-    "fdmg-ts-react-anchor": "^1.0.2",
+    "fdmg-ts-react-anchor": "^1.0.3",
     "fdmg-ts-react-image": "^1.0.1"
   }
 }

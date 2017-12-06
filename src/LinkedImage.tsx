@@ -1,6 +1,6 @@
 import * as React from 'react';
 import A from 'fdmg-ts-react-anchor';
-import Image from 'fdmg-ts-react-image';
+import Img from 'fdmg-ts-react-image';
 import {MouseEvent} from 'react';
 
 export interface Props {
@@ -33,7 +33,7 @@ export default class LinkedImage extends React.Component<Props, any> {
                 className={this.props.className}
                 aria-label={this.props.ariaLabel?this.props.ariaLabel:this.props.alt}
                 onClick={this.props.onClick}>
-                <Image src={this.props.src} alt={this.props.alt}/>
+                <Img src={this.props.src} alt={this.props.alt}/>
             </A>
         );
     }

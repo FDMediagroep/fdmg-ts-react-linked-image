@@ -35,7 +35,7 @@ test('LinkedImage renders correctly', () => {
 test('LinkedImage onClick callback handling', () => {
     const spy = jest.fn();
     let component = mount(
-        <LinkedImage onClick={spy} alt={"alt-text"} src={'test.png'} className={'css-class-name'}/>
+        <LinkedImage href="fd.nl" onClick={spy} alt={"alt-text"} src={'test.png'} className={'css-class-name'}/>
     );
 
     component.simulate('click');
