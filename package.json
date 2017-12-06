@@ -5,7 +5,7 @@
   "main": "dist/LinkedImage.js",
   "types": "dist/LinkedImage.d.ts",
   "scripts": {
-    "release": "npm install && tsc -d",
+    "release": "npm install && yarn && tsc -d",
     "test": "jest",
     "updateSnapshot": "jest --updateSnapshot",
     "u": "npm test -- -u"
