@@ -23,16 +23,17 @@ export default class LinkedImage extends React.Component<Props, any> {
     constructor(props: Props) {
         super(props);
         this.props = props;
-        console.info('LinkedImage composition', props);
     }
 
     render() {
         return (
-            <A href={this.props.href}
+            <A
+                href={this.props.href}
                 target={this.props.target}
                 className={this.props.className}
-                aria-label={this.props.ariaLabel?this.props.ariaLabel:this.props.alt}
-                onClick={this.props.onClick}>
+                aria-label={this.props.ariaLabel ? this.props.ariaLabel : this.props.alt}
+                onClick={this.props.onClick}
+            >
                 <Img src={this.props.src} alt={this.props.alt}/>
             </A>
         );

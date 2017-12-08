@@ -21,7 +21,6 @@ var LinkedImage = /** @class */ (function (_super) {
     function LinkedImage(props) {
         var _this = _super.call(this, props) || this;
         _this.props = props;
-        console.info('LinkedImage composition', props);
         return _this;
     }
     LinkedImage.prototype.render = function () {
