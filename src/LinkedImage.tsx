@@ -1,6 +1,6 @@
 import * as React from 'react';
-import A from 'fdmg-ts-react-anchor';
-import Img from 'fdmg-ts-react-image';
+import A from '@fdmg/ts-react-anchor';
+import Img from '@fdmg/ts-react-image';
 import {MouseEvent} from 'react';
 
 export interface Props {
