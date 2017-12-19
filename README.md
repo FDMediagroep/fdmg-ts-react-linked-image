@@ -4,6 +4,8 @@
 [![npm version](https://badge.fury.io/js/%40fdmg%2Fts-react-linked-image.svg)](https://badge.fury.io/js/%40fdmg%2Fts-react-linked-image)
 
 # fdmg-ts-react-linked-image
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/FDMediagroep/fdmg-ts-react-linked-image.svg)](https://greenkeeper.io/)
 [ReactJS](https://reactjs.org/) LinkedImage component. This component renders an image with a link.
 
 ## Installation
