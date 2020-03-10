@@ -63,7 +63,7 @@
     "mapCoverage": true
   },
   "dependencies": {
-    "@fdmg/ts-react-anchor": "^1.0.7",
+    "@fdmg/ts-react-anchor": "^1.0.8",
     "@fdmg/ts-react-image": "^1.0.6"
   }
 }
