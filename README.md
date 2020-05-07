@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/FDMediagroep/fdmg-ts-react-linked-image.svg?branch=master)](https://travis-ci.org/FDMediagroep/fdmg-ts-react-linked-image)
 [![Coverage Status](https://coveralls.io/repos/github/FDMediagroep/fdmg-ts-react-linked-image/badge.svg?branch=master)](https://coveralls.io/github/FDMediagroep/fdmg-ts-react-linked-image?branch=master)
 [![npm version](https://badge.fury.io/js/%40fdmg%2Fts-react-linked-image.svg)](https://badge.fury.io/js/%40fdmg%2Fts-react-linked-image)
-[![Greenkeeper badge](https://badges.greenkeeper.io/FDMediagroep/fdmg-ts-react-linked-image.svg)](https://greenkeeper.io/)
+
 
 [ReactJS](https://reactjs.org/) LinkedImage component. This component renders an image with a link.
 
